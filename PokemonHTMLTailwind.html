@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon Test</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script type="application/javascript" src="js/pokemon.js" ></script>
+</head>
+<body>
+<div class="flex flex-col min-h-screen">
+    <header class="bg-blue-500 p-4 flex place-content-between">
+        <p>Pokemon Demo</p>
+        <a href="https://github.com/JacobLuytjes01/PokemonTypeTest">GitHub Page</a>
+    </header>
+    <main class="flex-grow p-4 flex flex-col space-x-4 space-y-4">
+        <div></div>
+        <div>
+            <div>Attack Type</div>
+            <input type="text" id="attackInput" placeholder="Enter Type Here">
+        </div>
+        <div>
+            <div>Defence Type</div>
+            <input type="text" id="defendInput" placeholder="Enter First Type Here">
+            <div></div>
+            <input type="text" id="defendInput2" placeholder="Enter Second Type Here">
+        </div>
+        <div>
+            <button id="displayButton">Submit</button>
+        </div>
+        <div id="display">
+            <p id="displayValue"></p>
+        </div>
+    </main>
+</div>
+</body>
+</html>
